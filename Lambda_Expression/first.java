@@ -20,7 +20,7 @@ class Dog implements I{
 
 
 
-// above code is showing what needs to be done in order to work with anu functional interface before java version 1.8 until lambda expressions are not introduced.
+// above code is showing what needs to be done in order to work with any functional interface before java version 7 until lambda expressions are not introduced.
 
 @FunctionalInterface
 interface Animals{
@@ -38,7 +38,7 @@ class first{
 
 // this is what needed to be done after introduction of lambda expressions.
 
-// Lambda Expressions are anonymous functions having these properties:
+// Lambda Expressions introduced in version 1.8, are anonymous functions having these properties:
     // 1). no method name
     // 2). no return type
     // 3). no access modifiers.
