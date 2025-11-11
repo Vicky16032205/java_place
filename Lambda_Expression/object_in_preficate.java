@@ -25,6 +25,8 @@ public class object_in_preficate {
         for(Employee e : emp){
             if(person.test(e)){
                 System.out.println(e.ename);
+                System.out.println(e.salary);
+                System.out.println(e.experience);
             }
         }
     }
